@@ -1,0 +1,10 @@
+@import './style/fontAwesome.wxss';
+@import './style/weui.wxss';
+
+page{
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+}
+view,text{
+  box-sizing: border-box;
+}

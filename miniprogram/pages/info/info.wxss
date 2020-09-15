@@ -1,0 +1,18 @@
+.content{
+  width: 750rpx;
+}
+.card{
+  width: 80%;
+  margin: 30rpx auto;
+  border: 1rpx solid #ccc;
+  background-color: #fff;
+  color: #3f3f3f;
+  padding: 20rpx;
+  box-shadow: 2rpx 2rpx 1rpx 1rpx lightgray;
+}
+.card .card_title{
+  text-align: center;
+}
+.card .card_time{
+  text-align: right;
+}

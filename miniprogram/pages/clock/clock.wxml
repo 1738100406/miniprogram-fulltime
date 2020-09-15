@@ -1,0 +1,21 @@
+<view class="container">
+<add-tips duration="5" text="点击添加到小程序" />
+  <view class="preview"  style="background-color:{{preview_background}} ;color:{{preview_color}}">00:00:00
+  </view>
+  <view class="color_select">
+    <view class="color_title">字体颜色</view>
+    <view class="color_item" bindtap="changColor">
+      <view class="color-li" wx:for="{{colors}}"  
+      wx:key="index" data-val="{{item.val}}" style="background-color:{{item.val}}"></view>
+    </view>
+  </view>
+  <view class="color_select">
+    <view class="color_title">背景颜色</view>
+    <view class="color_item" bindtap="changBackground">
+      <view class="color-li" wx:for="{{colors}}" 
+      wx:key="index" data-val="{{item.val}}"  style="background-color:{{item.val}}"></view>
+    </view>
+  </view>
+  <button class="btn" bindtap="goTocolok">进入全屏</button>
+
+</view>

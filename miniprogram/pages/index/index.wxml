@@ -1,0 +1,4 @@
+<!-- 数组for练习 -->
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName" wx:key="index">
+	{{idx+1}}: {{itemName.message}}
+</view>

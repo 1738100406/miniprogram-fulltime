@@ -1,0 +1,33 @@
+<view class="main">
+  <view class="full_Screen" style="color:{{color}};background:{{background}}">
+    <view class="left">
+      <view>{{minute}}</view>
+      <view class="time_ele">:</view>
+      <view>{{second}}</view>
+      <view class="time_ele">.</view>
+      <view>{{minsecond}}</view>
+    </view>
+    <view class="right">
+      <view class="records-wrapper">
+        <view class="records" wx:for="{{laps}}" wx:key="index">
+          <view>{{index+1}}</view>
+          <view>{{item}}</view>
+        </view>
+      </view>
+      <view class="btns">
+        <button class="btn resert" style="display:{{paused?'none':'block'}}; color:{{background}};background:{{color}}" bindtap="resertBtn">
+          重置
+        </button>
+        <button class="btn start" bindtap="startBtn" style="display:{{paused?'none':'block'}}; color:{{background}};background:{{color}}">
+          开始
+        </button>
+        <button class="btn recode" bindtap="recodeBtn" style="display:{{paused?'block':'none'}}; color:{{background}};background:{{color}}">
+          记录
+        </button>
+        <button class="btn pause" bindtap="pauseBtn" style="display:{{paused?'block':'none'}}; color:{{background}};background:{{color}}">
+          暂停
+        </button>
+      </view>
+    </view>
+  </view>
+</view>

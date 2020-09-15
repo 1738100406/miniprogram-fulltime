@@ -1,0 +1,10 @@
+<!--pages/info/info.wxml-->
+<view class="content">
+  <view class="card">
+    <view class="card_title">更新 v0.0.1</view>
+    <view class="card_item">1.修改UI</view>
+    <view class="card_item">2.增加tabBar</view>
+    <view class="card_time">2020-01-01</view>
+  </view>
+  <button open-type="contact">联系客服</button>
+</view>

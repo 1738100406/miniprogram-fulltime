@@ -1,0 +1,9 @@
+<view class="main">
+  <view class="full_Screen" style="color:{{color}};background:{{background}}">
+  <view>{{hour}}</view>
+  <view class="time_ele">:</view>
+  <view>{{minute}}</view>
+  <view class="time_ele">:</view>
+  <view>{{second}}</view>
+</view>
+</view>
